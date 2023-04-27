@@ -8,4 +8,7 @@ public class Client {
     public String realizarCancelamento(String msg){
         return AppMediator.getInstancia().receberCancelamentoAcomodacao(msg);
     }
+    public String realizarFeedback(String msg){
+        return AppMediator.getInstancia().receberFeedbackDaAcomodacao(msg);
+    }
 }

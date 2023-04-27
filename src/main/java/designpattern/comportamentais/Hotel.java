@@ -9,7 +9,7 @@ public class Hotel implements TravelService{
     }
     public String receberReserva(String data, int numeroAcomodacao){
         return "Sua reserva para o dia "+data+" para a acomodação de numero "+numeroAcomodacao+
-                "foi realizada com Sucesso";
+                ", foi realizada com Sucesso";
     }
     public String receberCancelamento(String msg){
         return "Conforme o pedido descrito abaixo, realizamos o cancelamento de sua acomodação\n"+msg;
